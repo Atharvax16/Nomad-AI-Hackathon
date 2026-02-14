@@ -66,8 +66,10 @@ conda create -n spatialai python=3.10
 conda activate spatialai
 
 pip install numpy trimesh matplotlib reportlab llama-cpp-python
+
 pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
 
 mistral-7b-instruct-v0.2.Q4_K_M.gguf
+
 models/mistral.gguf
 
